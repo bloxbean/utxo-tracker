@@ -1,6 +1,6 @@
 ## Utxo Tracker for script addresses using Yaci Store 
 
-This an example of a utxo-tracker using [Yaci Store](https://github.com/bloxbean/yaci-store) Spring Boot Starter.
+This is an example of utxo-tracker using [Yaci Store](https://github.com/bloxbean/yaci-store) Spring Boot Starter.
 
 ### Configuration
 
