@@ -1,6 +1,6 @@
 ## Utxo Tracker for script addresses using Yaci Store 
 
-This a example of a utxo-tracker using [Yaci Store](https://github.com/bloxbean/yaci-store) Spring Boot Starter.
+This is an example of utxo-tracker using [Yaci Store](https://github.com/bloxbean/yaci-store) Spring Boot Starter.
 
 ### Configuration
 
@@ -54,3 +54,11 @@ java -jar target/utxo-tracker-0.0.1-SNAPSHOT.jar
 ### Swagger-UI for REST APIs
 
 https://localhost:8080/swagger-ui/index.html
+
+## Using Docker Compose
+
+Change `config/application.properties` for DB to use docker service specified in the docker compose
+
+```
+docker-compose up --build
+```
