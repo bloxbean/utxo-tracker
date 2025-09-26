@@ -124,7 +124,7 @@ public class NewScriptDeploymentListener {
                             .stakeAddress(stakeAddress.toBech32())
                             .paymentCredential(HexUtil.encodeHexString(paymentCredential.getBytes()))
                             .stakeCredential(stakeCredential)
-                            .slot(event.getEventMetadata().getSlot())
+                            .slot(event.getMetadata().getSlot())
                             .build();
 
                     return address;
